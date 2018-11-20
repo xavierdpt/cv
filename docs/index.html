@@ -9,7 +9,7 @@
 html, body { box-sizing:border-box; }
 .body {
   font-family: 'Open Sans', sans-serif;
-  color:#112244;
+  color:black;
   width:21cm;
   height:29.7cm;
   margin:1cm;
@@ -24,8 +24,8 @@ html, body { box-sizing:border-box; }
   padding-bottom:20px;
 }
 .name {
-  font-weight: 600;
-  font-size:1.1em;
+  font-weight: bold;
+  font-size:1.3em;
 }
 .main_section {
   font-size:2em;
@@ -37,7 +37,7 @@ html, body { box-sizing:border-box; }
 .subsection {
   font-weight: 600;
   font-size:1.5em;
-  padding-top:5px;
+  padding-top:10px;
 }
 .date {
   width:150px;
@@ -53,7 +53,7 @@ html, body { box-sizing:border-box; }
 }
 
 .exp {
-  margin-top:15px;
+  margin-top:10px;
   margin-bottom:1px;
   margin-left:10px;
   font-weight:bold;
@@ -83,18 +83,24 @@ html, body { box-sizing:border-box; }
 </style>
 </head>
 <body>
-<div class="body">
-<div class="infos" style="position:relative">
+<div class="body" style="position:relative">
+<div class="infos" style="position:absolute; top:0; left:0">
 <div class="name">Xavier Dupont</div>
-<div>14000 Caen (Mobile)</div>
-<div>06 21 73 05 55</div>
-<div>xavierdpt@gmail.com</div>
-<div style="position:absolute;width:100%;top:0;left:10%;text-align:center;">
-  <div style="text-align:center;font-size:3em;font-weight:bold;">Ingénieur Java</div>
-</div>
+<div>14000 Caen</div>
+<div>Mobile vers Sud de la France</div>
 </div>
 
-<div class="main_section">Expérience Professionnelle</div>
+<div class="infos" style="position:absolute; right:0; top:0; text-align:right">
+<div class="name" style="visibility:hidden">Xavier Dupont</div>
+<div>xavierdpt@gmail.com</div>
+<div>06 21 73 05 55</div>
+</div>
+
+<div style="position:absolute;width:100%;top:2cm;text-align:center;">
+  <div style="text-align:center;font-size:3em;font-weight:bold;">Ingénieur Java EE</div>
+</div>
+
+<div class="main_section" style="padding-top:4cm;">Expérience Professionnelle</div>
 
 <div class="subsection">Développement</div>
 
@@ -173,8 +179,7 @@ html, body { box-sizing:border-box; }
 <div class="expo">
 <div class="exp">Représentant des doctorants auprès de l'école doctorale</div>
 <div class="expdesc">Organisation des Journée de l'&Eacute;cole doctorale</div>
-<div class="expdesc">Conception du système d'inscription PHP, MySQL</div>
-<div class="expdesc">Conception du système d'inscription PHP, MySQL</div>
+<div class="expdesc">Conception et développement du système d'inscription PHP, MySQL</div>
 </div>
 </div>
 </body>
